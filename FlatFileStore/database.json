@@ -1,0 +1,20 @@
+{
+    "categories" : [
+        { 
+            "name" : "cloth", 
+            "title" : "Cloth",
+            "id" : 1,
+            "subs" : [
+                { "name" : "male", "id" : 1, "title" : "Male Clothing" },
+                { "name" : "female", "id" : 2, "title" : "Female Clothing" },
+                { "name" : "childre,", "id" : 3, "title": "Children Clothing" }
+            ]
+        },
+        { "name" : "shoes", "id" : 2, "title" : "Shoes"},
+        { "name" : "gadgets", "id" : 3}
+    ],
+    "products" : [
+        { "name" : "Levis Jeans", "category" : [1,1], "image" : "levi1.jpg", "desc" : "Levis Jeans are badass", "price" : 100, "id" : 1 },
+        { "name" : "Levis Jeans", "category" : [1,2], "image" : "levi1.jpg", "desc" : "Levis Jeans are badass", "price" : 100, "id" : 2 }
+    ]
+}
