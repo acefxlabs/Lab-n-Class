@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    color : #EE2227;
+}
+
+    h1{
+        font-size: 35px;
+        font-weight: 700;
+        color: #FFF;
+    }
+    h2{
+        font-size: 35px;
+        font-weight: 700;
+        color: #292929;
+    }
+    h3{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    h4{
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .container{
+        width: 1440px;
+        margin: 0px auto;
+        position: relative;
+    }
+
+/* Static Contents */
+.top, .app, .base, .menu{
+    width: 100%;
+}
+.top{
+    height: 116px;
+}
+.app{
+    background: #FAFAFA;
+    min-height: 500px;
+}
+.base{
+    height: 495px;
+}
+.menu{
+    position: absolute;
+    z-index: 100;
+    padding: 30px 0px;
+    background: #292929;
+    text-align: center;
+}
+    .menu ul{
+        padding: 0px;
+        margin: 0px auto;
+        width: fit-content;
+    }
+        .menu ul li{
+            list-style: none;
+            float: left;
+            margin: 0px 7px;
+        }
+            .menu ul li a{
+                font-weight: 700;
+                color: #FFF;
+                text-decoration: none;
+                padding: 5px;
+            }
+                .menu ul li a:hover, .menu ul li a.active{
+                    border-bottom: solid 2px #FFF;
+                }
+
+
+/* Components */
+.modalHolder{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vW;
+    height: 100vH;
+}
